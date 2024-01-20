@@ -8,9 +8,11 @@ for METADATA_FILE in *MetaData.txt; do
 	echo
 	cat "$CONTENT_FILE"
 	echo
-	echo "#scrivener_import"
-	grep "Keywords:" "$METADATA_FILE" | sed 's/ / #/g' | sed 's/-/_/g'
 	echo
+	echo "#scrivener_import"
+	grep "Keywords:" "$METADATA_FILE" | sed 's/ / #/g' | sed 's/-/_/g' | sed 's/,//g' | sed 's/Keywords: //'
+	echo "$@"
+	echo 
 	echo
 done
 
