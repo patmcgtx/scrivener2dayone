@@ -12,7 +12,7 @@ The script will produce text output which can be redirected to a file and import
 
 `scrivener2dayone.sh > day-one.txt`
 
-You can also add some command-line arguments, which will be concatenated to the end of each entry.  This give you a wayto add hastags or whataver into you want to every entry you import into DayOne.
+You can also add some command-line arguments, which will be concatenated to the end of each entry.  This give you a way to add hastags or whataver you want on the end of every entry you import into DayOne.
 
 `scrivener2dayone.sh \#ideas \#dialog > day-one.txt`
 
