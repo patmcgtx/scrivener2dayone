@@ -1,8 +1,14 @@
 #!/bin/sh
 
 for METADATA_FILE in *MetaData.txt; do
-	CONTENT_FILE=${METADATA_FILE/ MetaData.txt/.md}
+
 	TITLE=${METADATA_FILE/ MetaData.txt/}
+	CONTENT_FILE=${METADATA_FILE/ MetaData.txt/.md}
+
+	if test -d "${CONTENT_FILE}"; then
+		CONTENT_FILE="${CONTENT_FILE}/${CONTENT_FILE}"
+	fi
+
 	grep "Created" "$METADATA_FILE" | sed 's/Created:/Date:/'
 	echo "Weather: Unknown"
 	echo "Location: Unknown"
