@@ -1,4 +1,4 @@
-# General approach on how this script works
+# How to use this script
 
 ## Given a Scrivener export
 
