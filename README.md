@@ -5,17 +5,17 @@ Tested and works on macOS (requires shell access).
 
 ## 👉 But why?
 
-Always a good question.  *Why* would I want to convert Scrivener to DayOne?
+Always a good question: *why*.  Why would I want to convert Scrivener to DayOne?
 
-I had a writing project in Scrivener that I decided I wanted to move to DayOne to simplify my writing process.  As it turns out, I had 506 entries/files in Scriviner.  When I though about convering those manually, I nearly abandonded the project. 🤦🏻‍♂️
+I had a writing project in Scrivener that I decided I wanted to move to DayOne to simplify my writing process.  As it turns out, I had **506 entries** in Scriviner.  When I though about convering those manually, I cried one tear and nearly abandonded the project. 🤦🏻‍♂️
 
-And then I decided to dust off the ol' shell scripting skills and automate this tedious process.  That's that computers are for, right?
+And then I decided to dust off the ol' shell scripting skills 👨🏻‍💻 and automate this tedious process.  That's that computers are for, right?
 
-Admittedly, this is a pretty specific case and likely only useful to me, but I thought I'd toss it out into the world just in case someone else is on the same boat. 🚤
+Admittedly, this is a pretty specific case and likely only useful to me, but I thought I'd toss it out into the world just in case someone else is in the same boat. 🚤
 
 ## How to use
 
-- [ ] Expand this section
+- [ ] Add details / screenshots for each step
 
 It's a semi-automated process.
 
