@@ -1,7 +1,5 @@
 # General approach on how this script works
 
-- [ ] Reference this README.md 
-
 ## Given a Scrivener export
 
 In Scrivener, choose **File -> Export -> Files...** and export the selected folders/files as MultiMarkdown with Notes and Metadata selected.

@@ -15,14 +15,9 @@ Admittedly, this is a pretty specific case and likely only useful to me, but I t
 
 ## How to use
 
-- [ ] Add details / screenshots for each step
-
 It's a semi-automated process.
 
-1. Export your project from Scriviner for macOS as .txt files
-2. Run this script on the exported Scriviner files to convert them a DayOne-importable format
-3. Import the converted files into DayOne through the DayOne macOS client
-4. Tag and edit in DayOne as needed
+See [HOWTO.md](HOWTO.md).
 
 ## SAQ (Sometimes Asked Questions)
 
