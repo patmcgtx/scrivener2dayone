@@ -23,3 +23,27 @@ It's a semi-automated process.
 2. Run this script on the exported Scriviner files to convert them a DayOne-importable format
 3. Import the converted files into DayOne through the DayOne macOS client
 4. Tag and edit in DayOne as needed
+
+## SAQ (Sometimes Asked Questions)
+
+### Does this script convert Scrivener's keywords to DayOne tags?
+
+No.  Well, sort of.
+
+Fortunately, Scrivener does export keywords as metadata.
+
+```
+Created: November 30, 2023 at 7:24 PM
+Modified: November 30, 2023 at 7:25 PM
+Status: No Status
+Label: No Label
+Keywords: funny, family
+```
+
+But DayOne does not support importing tags (unless you're importing a PDF, which we are not 🤷🏻‍♂️).
+
+So as a fallback, this script will include keywords in the body of the text imported into DayOne.
+
+``
+**Keywords: funny, family**
+``
