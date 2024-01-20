@@ -2,9 +2,12 @@
 
 for METADATA_FILE in *MetaData.txt; do
 	CONTENT_FILE=${METADATA_FILE/ MetaData.txt/.md}
+	TITLE=${METADATA_FILE/ MetaData.txt/}
 	grep "Created" "$METADATA_FILE" | sed 's/Created:/Date:/'
 	echo "Weather: Unknown"
 	echo "Location: Unknown"
+	echo
+	echo "${TITLE}"
 	echo
 	cat "$CONTENT_FILE"
 	echo
