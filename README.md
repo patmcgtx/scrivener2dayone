@@ -37,8 +37,19 @@ Keywords: funny, family
 
 But DayOne does not support importing tags (unless you're importing a PDF, which we are not 🤷🏻‍♂️).
 
-So as a fallback, this script will include keywords in the body of the text imported into DayOne.
+So as a fallback, this script will include keywords as hashtags in the body of the text imported into DayOne.
+
+So Scrivener's keywords...
 
 ``
-**Keywords: funny, family**
+Keywords: funny, family
 ``
+
+Become hashtags in DayOne.  This script automatically includes a `#scrivener_import` hashtag as well.
+
+``
+#scrivener_import
+#funny #family
+``
+
+You can also add your own hashtags, or anything else you wand, as command-line args.  See [HOWTO.md](HOWTO.md).
